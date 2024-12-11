@@ -33,7 +33,7 @@ export default function RootLayout({ children }) {
         </script> */}
       </head>
 
-      <body className="container">
+      <body>
 
         <div>{children}</div>
 

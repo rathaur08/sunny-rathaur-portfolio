@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <>
       <div>
-        <nav className="navbar navbar-expand-lg bg-light p-0">
+        <nav className="navbar fixed-top  navbar-expand-lg bg-light p-0">
           <div className="container">
             <Link className="navbar-brand" href="/">
               <Image src="https://d3tfanr7troppj.cloudfront.net/static_files/images/000/006/332/original/SUNNY_LOGO.svg?1733919683" width={180} height={60} alt="SUNNY LOGO" />

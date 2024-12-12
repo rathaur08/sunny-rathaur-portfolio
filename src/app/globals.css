@@ -1,5 +1,22 @@
-
 body {
   min-height: 75rem;
   padding-top: 4.5rem;
+}
+
+.home-banner-text {
+  display: flex;
+  align-items: center;
+}
+
+.home-banner-text-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio-img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  /* border: 5px solid #fd8a3f; */
 }

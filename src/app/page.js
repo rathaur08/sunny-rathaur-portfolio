@@ -1,7 +1,8 @@
+'use client';
 import Footer from "./_components/Footer";
 import Header from "./_components/Header";
 
-export default function Home() {
+const page = () => {
   return (
     <>
       <Header />
@@ -45,5 +46,7 @@ export default function Home() {
       </main>
       <Footer />
     </>
-  );
+  )
 }
+
+export default page

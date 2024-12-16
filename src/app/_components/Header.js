@@ -18,11 +18,28 @@ const Header = () => {
             <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
               <ul className="navbar-nav justify-content-end">
                 <li className="nav-item">
-                  <Link className="nav-link active" aria-current="page" href="/">Home</Link>
-                </li>
-                <li className="nav-item">
                   <Link className="nav-link" href="/projects">Projects</Link>
                 </li>
+                <li className="nav-item">
+                  <Link className="nav-link" aria-current="page" href="/services">Services</Link>
+                </li>
+                <li className="nav-item dropdown">
+                  <Link className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Skills
+                  </Link>
+                  <ul className="dropdown-menu">
+                    <li><Link className="dropdown-item" href="/skills">Skills</Link></li>
+                    <li><Link className="dropdown-item" href="/certifications">Certifications </Link></li>
+                    <li><hr className="dropdown-divider" /></li>
+                    <li><Link className="dropdown-item" href="#" disabled>Others links</Link></li>
+                  </ul>
+                </li>
+                {/* <li className="nav-item">
+                  <Link className="nav-link" aria-current="page" href="/">Certifications</Link>
+                </li>
+                <li className="nav-item">
+                  <Link className="nav-link" aria-current="page" href="/skills">Skills</Link>
+                </li> */}
                 <li className="nav-item">
                   <Link className="nav-link btn btn-link" href="/about-us">About Us</Link>
                 </li>

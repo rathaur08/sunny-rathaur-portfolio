@@ -8,7 +8,7 @@ export default function Home() {
       <main className="container">
         <div className="pt-5">
           <div className="row">
-            <div className="col-lg-6 col-md-6 col-sm-12 home-banner-text">
+            <div className="col-lg-7 col-md-6 col-sm-12 home-banner-text">
               <div className="">
                 <h1 className="">Sunny Rathaur</h1>
                 <p className="">Hi, I’m Sunny Rathaur, a passionate Front-End Developer with 2 years of experience crafting user-friendly, responsive, and visually appealing web applications. I specialize in modern front-end technologies, including HTML, CSS, JavaScript, React.js, and Next.js, to deliver seamless user experiences.</p>
@@ -17,9 +17,29 @@ export default function Home() {
                 <button className="btn btn-primary">Let her Started </button>
               </div>
             </div>
-            <div className="col-lg-6 col-md-6 col-sm-12 home-banner-text-center">
+            <div className="col-lg-5 col-md-6 col-sm-12 home-banner-text-center">
               <img className="portfolio-img" src="https://d3tfanr7troppj.cloudfront.net/static_files/images/000/006/333/original/SUNNY_RATHAUR.png?1734007009" alt="Sunny Rathaur" />
             </div>
+          </div>
+          <div className="pt-3">
+            <h1 className="">About Me</h1>
+            <p>Explore my portfolio to see how I turn ideas into reality.</p>
+          </div>
+          <div className="pt-3">
+            <h1 className="">Skills</h1>
+            <p>Explore my portfolio to see how I turn ideas into reality.</p>
+          </div>
+          <div className="pt-3">
+            <h1 className="">Projects</h1>
+            <p>Explore my portfolio to see how I turn ideas into reality.</p>
+          </div>
+          <div className="pt-3">
+            <h1 className="">Services</h1>
+            <p>Explore my portfolio to see how I turn ideas into reality.</p>
+          </div>
+          <div className="pt-3">
+            <h1 className="">Contact Me</h1>
+            <p>Explore my portfolio to see how I turn ideas into reality.</p>
           </div>
         </div>
       </main>

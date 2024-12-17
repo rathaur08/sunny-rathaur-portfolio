@@ -44,24 +44,31 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         {/* Favicon Link */}
-        <link rel="icon" href="https://d3tfanr7troppj.cloudfront.net/static_files/images/000/006/330/original/Fab_icon.svg?1733917004" type="image/svg+xml" />
+        <link
+          rel="icon"
+          href="https://d3tfanr7troppj.cloudfront.net/static_files/images/000/006/330/original/Fab_icon.svg?1733917004"
+          type="image/svg+xml"
+        />
 
-        {/* Bootstrap CSS link */}
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
-          rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossOrigin="anonymous" />
+        {/* Bootstrap CSS */}
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-QWTKZgEEXw5FvcpV/QtSTVgK43+8F6BxNh5P3x7mdQAZj9Wrly5HpK0V6iY9cW3e"
+          crossOrigin="anonymous"
+        />
       </head>
 
       <body>
         <div>{children}</div>
 
         {/* Bootstrap JS */}
-        <Script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-          integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
-          crossOrigin="anonymous" />
-        <Script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
-          integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
-          crossOrigin="anonymous" />
-
+        <Script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-dTDtMIqzL+zKc+5wt+BDEfW5R06YAc3EsriMB/P46FIghbtflSZT33o2ISWf5Dq0"
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
       </body>
     </html>
   );
